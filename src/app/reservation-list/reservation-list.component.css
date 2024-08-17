@@ -1,0 +1,30 @@
+/* Component-specific CSS or global styles */
+
+/* Styling for the reservation list */
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  li p {
+    margin: 5px 0;
+  }
+  
+  button {
+    margin-right: 10px;
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+  }

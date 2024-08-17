@@ -1,0 +1,63 @@
+/* Component-specific CSS or global styles */
+
+form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form input[type="number"],
+  form input[type="date"],
+  form button {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin: 5px 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  
+  form div {
+    margin-bottom: 15px;
+    position: relative;
+  }
+  
+  form div > div {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    font-size: 12px;
+    color: #cc0000;
+  }
+  
+  form button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Adjustments for smaller screens */
+  @media screen and (max-width: 600px) {
+    form {
+      width: 100%;
+      padding: 10px;
+    }
+  }
+  
